@@ -3,8 +3,8 @@
     "vercel": "^34.2.7"
   },
   "scripts": {
-    "client": "cd client && npm run build",
-    "server": "cd server && npm run build",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run start",
     "vercel-build": "npm run client && npm run server"
   }
 }

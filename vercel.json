@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "client",
+      "use": "@vercel/static-build",
+      "config": {}
+    },
+    {
+      "src": "server",
+      "use": "@vercel/node-build",
+      "config": {}
+    }
+  ],
+  "routes": [
+    {
+      "src": "/*",
+      "dest": "client/index.html"
+    }
+  ]
+}

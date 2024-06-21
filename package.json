@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "vercel": "^34.2.7"
+  },
+  "scripts": {
+    "client": "cd client && npm run build",
+    "server": "cd server && npm run build",
+    "vercel-build": "npm run client && npm run server"
+  }
+}
